@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mi app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Enviar</string>
+    <string name="apellido_message">Digite su apellido:</string>
+    <string name="nombre_message">Digite su nombre:</string>
+    <string name="genero_message">Género</string>
+    <string-array name="generos">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+</resources>
