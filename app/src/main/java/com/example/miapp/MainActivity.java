@@ -22,8 +22,6 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 
 
-import java.util.Date;
-
 
 public class MainActivity extends AppCompatActivity {
     EditText nombre, apellido;
@@ -73,16 +71,6 @@ public class MainActivity extends AppCompatActivity {
                 cb5.setChecked(false);
                 cb6.setChecked(false);
 
-            }
-        });
-
-    //TODO: Hacerlo en la casa
-        programar.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
-            if (radioGroup.getCheckedRadioButtonId() == R.id.radioButton2){
-                //noClickCheckBox(false,findViewById(R.id))
-            }
             }
         });
 
